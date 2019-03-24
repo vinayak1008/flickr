@@ -1,0 +1,54 @@
+.homePage{
+    .header{
+        position: fixed;
+        z-index: 2000;
+        width: 100%;
+        height: 64px;
+        background-color: rgba(65, 60, 60, 0.5) !important;
+        transition: top 0.3s;
+    }
+    .main{      
+        color: azure;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        padding: 10px 0px;
+        .left h2{
+            font-weight: 900;
+        }
+        .middle{
+            padding-top: 8px;
+            position: relative;
+            input[type="text"] {
+                background-color: whitesmoke;
+                padding: 1px;
+                border: none;
+                outline: none;
+                padding-left: 30px;
+                font-size: 1.2em;
+                border-radius: 5px;
+                width: 800px;
+            }
+            i.fa.fa-search{
+                position: absolute;
+                font-size: 18px;
+                color: gray;
+                top: 13px;
+                left: 10px;
+            } 
+        }
+        .right{
+            padding-top: 8px;
+            cursor: pointer;
+            span.log{
+                margin-right: 10px;
+            }
+        }       
+    }
+    .coverPage{
+        img.d-block.w-100 {
+            height: 600px;
+        }
+    }
+}
